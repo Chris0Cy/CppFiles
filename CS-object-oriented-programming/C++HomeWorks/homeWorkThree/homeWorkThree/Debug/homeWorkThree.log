@@ -1,0 +1,6 @@
+﻿  Source.cpp
+  CAI.cpp
+d:\classworkstuff\c++homeworks\homeworkthree\homeworkthree\cai.cpp(174): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+d:\classworkstuff\c++homeworks\homeworkthree\homeworkthree\cai.cpp(197): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Generating Code...
+  homeWorkThree.vcxproj -> D:\classWorkStuff\C++HomeWorks\homeWorkThree\homeWorkThree\Debug\homeWorkThree.exe

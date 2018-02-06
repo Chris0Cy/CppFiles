@@ -1,0 +1,5 @@
+﻿  Source.cpp
+  Convert.cpp
+d:\classworkstuff\c++homeworks\homeworkone\convert.cpp(53): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  Generating Code...
+  homeWorkOne.vcxproj -> D:\classWorkStuff\C++HomeWorks\homeWorkOne\Debug\homeWorkOne.exe
