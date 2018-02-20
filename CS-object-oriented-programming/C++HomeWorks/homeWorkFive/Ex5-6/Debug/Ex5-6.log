@@ -1,0 +1,3 @@
+﻿  Source.cpp
+d:\classworkstuff\c++homeworks\homeworkfive\ex5-6\source.cpp(12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Ex5-6.vcxproj -> D:\classWorkStuff\C++HomeWorks\homeWorkFive\Ex5-6\Debug\Ex5-6.exe

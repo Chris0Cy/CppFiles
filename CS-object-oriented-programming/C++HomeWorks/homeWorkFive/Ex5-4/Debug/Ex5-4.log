@@ -1,0 +1,10 @@
+﻿  maximum.cpp
+d:\classworkstuff\c++homeworks\homeworkfive\ex5-4\maximum.cpp(15): error C4700: uninitialized local variable 'intFour' used
+d:\classworkstuff\c++homeworks\homeworkfive\ex5-4\maximum.cpp(15): error C4700: uninitialized local variable 'intThree' used
+d:\classworkstuff\c++homeworks\homeworkfive\ex5-4\maximum.cpp(15): error C4700: uninitialized local variable 'intTwo' used
+d:\classworkstuff\c++homeworks\homeworkfive\ex5-4\maximum.cpp(21): error C4700: uninitialized local variable 'double4' used
+d:\classworkstuff\c++homeworks\homeworkfive\ex5-4\maximum.cpp(21): error C4700: uninitialized local variable 'double3' used
+d:\classworkstuff\c++homeworks\homeworkfive\ex5-4\maximum.cpp(21): error C4700: uninitialized local variable 'double2' used
+d:\classworkstuff\c++homeworks\homeworkfive\ex5-4\maximum.cpp(26): error C4700: uninitialized local variable 'char4' used
+d:\classworkstuff\c++homeworks\homeworkfive\ex5-4\maximum.cpp(26): error C4700: uninitialized local variable 'char3' used
+d:\classworkstuff\c++homeworks\homeworkfive\ex5-4\maximum.cpp(26): error C4700: uninitialized local variable 'char2' used
