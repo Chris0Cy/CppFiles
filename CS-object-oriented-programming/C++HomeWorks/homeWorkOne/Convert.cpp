@@ -5,10 +5,37 @@
 using namespace std;
 
 
-Convert::Convert(int inputNumber, int inputBase)
+Convert::Convert()
 {
-	number = inputNumber;
-	base = inputBase;
+	number = 0;
+	base = 0;
+}
+
+void Convert::setNumber(int a)
+{
+	number = a;
+}
+
+void Convert::setBase(int a)
+{
+	base = a;
+}
+
+void Convert::engine()
+{
+	int userInputNumbers;
+	int userInputBase;
+	cout << "please enter 6 digit value then press enter:";
+	cout << "\n This program ONLY accepts 6 numbers of code:";
+	cin >> userInputNumbers;
+	cout << "enter a base Number";
+	cin >> userInputBase;
+
+
+	setNumber(userInputNumbers);
+	setBase(userInputBase);
+
+	printToScreen();
 }
 
 
@@ -20,6 +47,7 @@ void Convert::printToScreen()
 	}
 
 	int total = 0;
+	bool print = false;
 	int countingLoop[6];
 	countingLoop[0] = (number / 100000);
 	number = number % 100000;
@@ -40,20 +68,27 @@ void Convert::printToScreen()
 		if (countingLoop[i] % base != 0)
 		{
 			cout << countingLoop[i] << " ";
+			print = true;
 		}
 		else {
 			cout << "error ";
+			break;
+
 		}
 	}
 
-	total = (countingLoop[0] * pow(base, 5) +
-		countingLoop[1] * pow(base, 4) +
-		countingLoop[2] * pow(base, 3) +
-		countingLoop[3] * pow(base, 2) +
-		countingLoop[4] * pow(base, 1) +
-		countingLoop[5] * pow(base, 0));
+	if (print== true)
+	{
+		total = (countingLoop[0] * pow(base, 5) +
+			countingLoop[1] * pow(base, 4) +
+			countingLoop[2] * pow(base, 3) +
+			countingLoop[3] * pow(base, 2) +
+			countingLoop[4] * pow(base, 1) +
+			countingLoop[5] * pow(base, 0));
 
-	cout << "\n total value is: " << total << endl;
+		cout << "\n total value is: " << total << endl;
+	}
+
 
 	int placeHolder;
 	cin >> placeHolder;

@@ -7,88 +7,92 @@ class WordFont
 {
 public:
 	WordFont();
-	void printOut();
+	vector<vector<char>> checkingLetterNoBoldLowSix(string,char); // no bold and font size = 6
+	vector<vector<char>> checkingLetterNoBoldLowSeven(string, char); // no bold and font size = 7
 
-	void lowerASix(char); // 6x6 low a
-	void highASix(char); // 6x6 high A
-	void lowerASeven(char); // 7x7 low a
-	void highASeven(char); // 7x7 high A
+	vector<vector<char>> checkingLetterYesBoldHighSix(string, char); // yes bold and front size = 6
+	vector<vector<char>> checkingLetterYesBoldHighSeven(string, char); // yes bold and front size = 7
 
-	void lowerBSix(char); // 6x6 low b
-	void highBSix(char); //6x6 high B
-	void lowBSeven(char); // 7x7 low b
-	void highBSeven(char);// 7x7 high B
+	vector<vector<char>> lowerASix(char); // 6x6 low a
+	vector<vector<char>> highASix(char); // 6x6 high A
+	vector<vector<char>> lowerASeven(char); // 7x7 low a
+	vector<vector<char>> highASeven(char); // 7x7 high A
 
-	void lowCSix(char); // 6x6 low c
-	void highCSix(char);// 6x6 high c
-	void lowCSeven(char); // 7x7 low c
-	void highCSeven(char);// 7x7 high c
+	vector<vector<char>> lowerBSix(char); // 6x6 low b
+	vector<vector<char>> highBSix(char); //6x6 high B
+	vector<vector<char>> lowBSeven(char); // 7x7 low b
+	vector<vector<char>> highBSeven(char);// 7x7 high B
 
-	void lowDSix(char); // 6x6 low d
-	void HighDSix(char); // 6x6 high d
-	void lowDSeven(char); // 7x7 low d
-	void highDSeven(char);// 7x7 high d
+	vector<vector<char>> lowCSix(char); // 6x6 low c
+	vector<vector<char>> highCSix(char);// 6x6 high c
+	vector<vector<char>> lowCSeven(char); // 7x7 low c
+	vector<vector<char>> highCSeven(char);// 7x7 high c
 
-	void lowESix(char); // 6x6 low e
-	void highESix(char); // 6x6 high e
-	void lowESeven(char); // 7x7 low e
-	void highESeven(char);// 7x7 high e
+	vector<vector<char>> lowDSix(char); // 6x6 low d
+	vector<vector<char>> HighDSix(char); // 6x6 high d
+	vector<vector<char>> lowDSeven(char); // 7x7 low d
+	vector<vector<char>> highDSeven(char);// 7x7 high d
 
-	void lowFSix(char); // 6x6 low f
-	void highFSix(char); // 6x6 high f
-	void lowFSeven(char); // 7x7 low f
-	void highFSeven(char);// 7x7 high f
+	vector<vector<char>> lowESix(char); // 6x6 low e
+	vector<vector<char>> highESix(char); // 6x6 high e
+	vector<vector<char>> lowESeven(char); // 7x7 low e
+	vector<vector<char>> highESeven(char);// 7x7 high e
 
-	void lowGSix(char); // 6x6 low g
-	void highGsix(char); // 6x6 high g
-	void lowGSeven(char); // 7x7 low g
-	void highGSeven(char);// 7x7 high g
+	vector<vector<char>> lowFSix(char); // 6x6 low f
+	vector<vector<char>> highFSix(char); // 6x6 high f
+	vector<vector<char>> lowFSeven(char); // 7x7 low f
+	vector<vector<char>> highFSeven(char);// 7x7 high f
 
-	void lowHSix(char); // 6x6 low h
-	void highHsix(char); //6x6 high H
-	void lowHSeven(char); // 7x7 low h
-	void highHSeven(char);// 7x7 high h
+	vector<vector<char>> lowGSix(char); // 6x6 low g
+	vector<vector<char>> highGsix(char); // 6x6 high g
+	vector<vector<char>> lowGSeven(char); // 7x7 low g
+	vector<vector<char>> highGSeven(char);// 7x7 high g
 
-	void lowISix(char); // 6x6 low i
-	void HighISix(char); // 6x6 high I
-	void lowISeven(char); // 7x7 low i
-	void highISeven(char);// 7x7 high i
+	vector<vector<char>> lowHSix(char); // 6x6 low h
+	vector<vector<char>> highHsix(char); //6x6 high H
+	vector<vector<char>> lowHSeven(char); // 7x7 low h
+	vector<vector<char>> highHSeven(char);// 7x7 high h
 
-	void lowJSix(char); // 6x6 low j
-	void HighJSix(char); // 6x6 high j
-	void lowJSeven(char); // 7x7 low j
-	void highJSeven(char);// 7x7 high j
+	vector<vector<char>> lowISix(char); // 6x6 low i
+	vector<vector<char>> HighISix(char); // 6x6 high I
+	vector<vector<char>> lowISeven(char); // 7x7 low i
+	vector<vector<char>> highISeven(char);// 7x7 high i
 
-	void lowKSix(char); // 6x6 low k
-	void HighKSix(char); // 6x6 high k
-	void lowKSeven(char); // 7x7 low k
-	void highKSeven(char);// 7x7 high k
+	vector<vector<char>> lowJSix(char); // 6x6 low j
+	vector<vector<char>> HighJSix(char); // 6x6 high j
+	vector<vector<char>> lowJSeven(char); // 7x7 low j
+	vector<vector<char>> highJSeven(char);// 7x7 high j
 
-	void lowOSix(char); // 6x6 low o
-	void HighOSix(char); // 6x6 high o
-	void lowOSeven(char); // 7x7 low o
-	void highOSeven(char);// 7x7 high o
+	vector<vector<char>> lowKSix(char); // 6x6 low k
+	vector<vector<char>> HighKSix(char); // 6x6 high k
+	vector<vector<char>> lowKSeven(char); // 7x7 low k
+	vector<vector<char>> highKSeven(char);// 7x7 high k
 
-	void lowUSix(char); // 6x6 low u
-	void HighUSix(char); // 6x6 high u
-	void lowUSeven(char); // 7x7 low u
-	void highUSeven(char);// 7x7 high u
+	vector<vector<char>> lowOSix(char); // 6x6 low o
+	vector<vector<char>> HighOSix(char); // 6x6 high o
+	vector<vector<char>> lowOSeven(char); // 7x7 low o
+	vector<vector<char>> highOSeven(char);// 7x7 high o
 
-	void lowTSix(char); // 6x6 low t
-	void HighTSix(char); // 6x6 high t
-	void lowTSeven(char); // 7x7 low t
-	void highTSeven(char);// 7x7 high t
+	vector<vector<char>> lowUSix(char); // 6x6 low u
+	vector<vector<char>> HighUSix(char); // 6x6 high u
+	vector<vector<char>> lowUSeven(char); // 7x7 low u
+	vector<vector<char>> highUSeven(char);// 7x7 high u
 
-	void lowXSix(char); // 6x6 low x
-	void HighXSix(char); // 6x6 high x
-	void lowXSeven(char); // 7x7 low x
-	void highXSeven(char);// 7x7 high x
+	vector<vector<char>> lowTSix(char); // 6x6 low t
+	vector<vector<char>> HighTSix(char); // 6x6 high t
+	vector<vector<char>> lowTSeven(char); // 7x7 low t
+	vector<vector<char>> highTSeven(char);// 7x7 high t
+
+	vector<vector<char>> lowXSix(char); // 6x6 low x
+	vector<vector<char>> HighXSix(char); // 6x6 high x
+	vector<vector<char>> lowXSeven(char); // 7x7 low x
+	vector<vector<char>> highXSeven(char);// 7x7 high x
+
 
 	void engine();
 	~WordFont();
 
 private:
-	vector<vector<char>> myMultiVector;
-
+	vector<vector<char>> a;
 };
 

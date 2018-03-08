@@ -1,12 +1,15 @@
 ﻿  WordFont.cpp
-d:\classworkstuff\c++homeworks\homeworkfour\homeworkfour\wordfont.cpp(14): warning C4018: '<': signed/unsigned mismatch
-d:\classworkstuff\c++homeworks\homeworkfour\homeworkfour\wordfont.cpp(16): warning C4018: '<': signed/unsigned mismatch
-d:\classworkstuff\c++homeworks\homeworkfour\homeworkfour\wordfont.cpp(31): warning C4018: '<': signed/unsigned mismatch
-d:\classworkstuff\c++homeworks\homeworkfour\homeworkfour\wordfont.cpp(33): warning C4018: '<': signed/unsigned mismatch
-  testCode.cpp
-d:\classworkstuff\c++homeworks\homeworkfour\homeworkfour\testcode.cpp(40): warning C4018: '<': signed/unsigned mismatch
-d:\classworkstuff\c++homeworks\homeworkfour\homeworkfour\testcode.cpp(41): warning C4018: '<': signed/unsigned mismatch
-d:\classworkstuff\c++homeworks\homeworkfour\homeworkfour\testcode.cpp(65): warning C4018: '<': signed/unsigned mismatch
-d:\classworkstuff\c++homeworks\homeworkfour\homeworkfour\testcode.cpp(66): warning C4018: '<': signed/unsigned mismatch
+d:\classworkstuff\c++homeworks\homeworkfour\homeworkfour\wordfont.cpp(834): warning C4018: '<': signed/unsigned mismatch
+d:\classworkstuff\c++homeworks\homeworkfour\homeworkfour\wordfont.cpp(884): error C2561: 'WordFont::checkingLetterNoBoldLowSix': function must return a value
+  d:\classworkstuff\c++homeworks\homeworkfour\homeworkfour\wordfont.cpp(832): note: see declaration of 'WordFont::checkingLetterNoBoldLowSix'
+d:\classworkstuff\c++homeworks\homeworkfour\homeworkfour\wordfont.cpp(893): warning C4018: '<': signed/unsigned mismatch
+d:\classworkstuff\c++homeworks\homeworkfour\homeworkfour\wordfont.cpp(943): error C2561: 'WordFont::checkingLetterNoBoldLowSeven': function must return a value
+  d:\classworkstuff\c++homeworks\homeworkfour\homeworkfour\wordfont.cpp(891): note: see declaration of 'WordFont::checkingLetterNoBoldLowSeven'
+d:\classworkstuff\c++homeworks\homeworkfour\homeworkfour\wordfont.cpp(951): warning C4018: '<': signed/unsigned mismatch
+d:\classworkstuff\c++homeworks\homeworkfour\homeworkfour\wordfont.cpp(1001): error C2561: 'WordFont::checkingLetterYesBoldHighSix': function must return a value
+  d:\classworkstuff\c++homeworks\homeworkfour\homeworkfour\wordfont.cpp(949): note: see declaration of 'WordFont::checkingLetterYesBoldHighSix'
+d:\classworkstuff\c++homeworks\homeworkfour\homeworkfour\wordfont.cpp(1009): warning C4018: '<': signed/unsigned mismatch
+d:\classworkstuff\c++homeworks\homeworkfour\homeworkfour\wordfont.cpp(1059): error C2561: 'WordFont::checkingLetterYesBoldHighSeven': function must return a value
+  d:\classworkstuff\c++homeworks\homeworkfour\homeworkfour\wordfont.cpp(1007): note: see declaration of 'WordFont::checkingLetterYesBoldHighSeven'
+  main.cpp
   Generating Code...
-  homeworkFour.vcxproj -> D:\classWorkStuff\C++HomeWorks\homeWorkFour\homeworkFour\Debug\homeworkFour.exe

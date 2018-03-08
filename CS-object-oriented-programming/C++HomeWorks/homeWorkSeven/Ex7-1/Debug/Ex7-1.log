@@ -1,5 +1,5 @@
 ﻿  Source.cpp
-d:\classworkstuff\c++homeworks\homeworkseven\ex7-1\source.cpp(30): error C2039: 'what': is not a member of 'DivideByZeroException'
-  d:\classworkstuff\c++homeworks\homeworkseven\ex7-1\dividebyzeroexception.h(3): note: see declaration of 'DivideByZeroException'
+  NumberTooLargeException.cpp
   DivideByZeroException.cpp
   Generating Code...
+  Ex7-1.vcxproj -> D:\classWorkStuff\C++HomeWorks\homeWorkSeven\Ex7-1\Debug\Ex7-1.exe

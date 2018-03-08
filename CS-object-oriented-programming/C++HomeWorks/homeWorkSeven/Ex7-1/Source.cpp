@@ -1,5 +1,6 @@
 #include <iostream>
 #include "DivideByZeroException.h"
+#include "NumberTooLargeException.h"
 
 using namespace std;
 
@@ -8,6 +9,11 @@ double quotient(int numerator, int denominator)
 	if (denominator == 0)
 	{
 		throw DivideByZeroException();
+	}
+
+	if (denominator || numerator > 10000)
+	{
+		throw NumberTooLargeException();
 	}
 	return static_cast<double> (numerator) / denominator;
 }
@@ -28,6 +34,11 @@ int main()
 		{
 			cout << "Exception occured: "
 				<< divideByZeroException.what() << endl;
+		}
+		catch (NumberTooLargeException &numberTooLargeException)
+		{
+			cout << "Exception occured: "
+				<< numberTooLargeException.what() << endl;
 		}
 
 		cout << "\nEnter two integer ( end of line to end): ";

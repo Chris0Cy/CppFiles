@@ -1,6 +1,9 @@
 #pragma once
-class DivideByZeroException
+#include <stdexcept>
+
+class DivideByZeroException : public std::runtime_error
 {
 public:
-	DivideByZeroException();
+	DivideByZeroException()
+		: std::runtime_error("Attempted to divide by zero") {}
 };

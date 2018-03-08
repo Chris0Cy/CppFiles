@@ -17,5 +17,8 @@ int main()
 
 	testObj.SecondsSinceNoon(hour, minute, second);
 
+	int testCode;
+	cin >> testCode;
+
 	return -1;
 }
