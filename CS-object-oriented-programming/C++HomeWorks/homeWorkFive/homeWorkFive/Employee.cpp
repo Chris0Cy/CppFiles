@@ -3,6 +3,12 @@
 
 using namespace std;
 
+
+Employee::Employee()
+{
+
+}
+
 Employee::Employee(string names)
 {
 	Point();
@@ -10,14 +16,17 @@ Employee::Employee(string names)
 }
 int Employee::GetCoordinates(Point & point)
 {
-	return getX() << getY();
+	return getX();
+	return getY();
 }
 
 void Employee::SetCoordinates(Point & point)
 {
-	int xValue, yValue;
+	int xValue;
+	int yValue;
 	cout << "enter a value for x then y:";
-	cin >> xValue,yValue;
+	cin >> xValue;
+	cin >> yValue;
 	setX(xValue);
 	setY(yValue);
 }

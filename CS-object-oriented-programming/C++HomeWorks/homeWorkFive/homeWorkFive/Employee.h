@@ -8,6 +8,7 @@ class Employee :
 	public Point
 {
 public:
+	Employee();
 	Employee(string);
 	int GetCoordinates(Point & point);
 	void SetCoordinates(Point & point);
